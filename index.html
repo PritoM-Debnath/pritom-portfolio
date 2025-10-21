@@ -1,0 +1,662 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pritom Debnath</title>
+
+  <!--
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./assets/images/logo.ico" type="image/x-icon">
+
+  <!--
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!--
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+  <!--
+    - #MAIN
+  --> 
+
+  <main>
+
+    <!--
+      - #SIDEBAR
+    -->
+
+    <aside class="sidebar" data-sidebar>
+
+      <div class="sidebar-info">
+
+        <figure class="avatar-box">
+          <img src="./assets/images/pro-pic.jpeg" alt="Pritom Debnath" width="80">
+        </figure>
+
+        <div class="info-content">
+          <h1 class="name" title="Pritom Debnath">Pritom Debnath</h1>
+
+          <p class="title">AI Engineer, Researcher</p>
+        </div>
+
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+
+      </div>
+
+      <div class="sidebar-info_more">
+
+        <div class="separator"></div>
+
+        <ul class="contacts-list">
+
+          <li class="contact-item">
+            <div class="info-content">
+              <p class="title">debnath.pritom480@gmail.com</p>
+              <p class="title">debnathpritom@outlook.com</p>
+           </div>
+
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+8801753464972" class="contact-link">+8801753464972</a>
+            </div>
+          </li>
+
+          <li class="contact-item">
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
+              <address>Dhaka, Bangladesh</address>
+            </div>
+
+          </li>
+
+        </ul>
+
+      <div class="separator"></div>
+
+        <ul class="social-list">
+
+          <li class="social-item">
+            <a href="https://github.com/PritoM-Debnath" class="social-link" aria-label="GitHub" target="_blank" rel="noopener">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.linkedin.com/in/pritomdebnath" class="social-link" aria-label="LinkedIn" target="_blank" rel="noopener">
+              <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://scholar.google.com/citations?user=fxzVRU0AAAAJ&hl=en" class="social-link" aria-label="Google Scholar" target="_blank" rel="noopener">
+              <ion-icon name="school-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://orcid.org/0009-0006-0491-4864" class="social-link" aria-label="ORCID" target="_blank" rel="noopener">
+              <ion-icon name="person-circle-outline"></ion-icon>
+            </a>
+          </li>
+
+          <li class="social-item">
+            <a href="https://www.researchgate.net/profile/Pritom-Debnath" class="social-link" aria-label="ResearchGate" target="_blank" rel="noopener">
+              <ion-icon name="flask-outline"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+      </div>
+
+    </aside>
+
+
+
+
+
+    <!--
+      - #main-content
+    -->
+
+    <div class="main-content">
+
+      <!--
+        - #NAVBAR
+      -->
+
+      <nav class="navbar">
+
+        <ul class="navbar-list">
+
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link>About</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Resume</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Portfolio</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Publications</button>
+          </li>
+
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link>Awards</button>
+          </li>
+
+          <li class="navbar-item">
+            <button id="theme-toggle" class="navbar-link theme-toggle" aria-label="Toggle theme" title="Toggle theme">
+              <ion-icon name="moon-outline"></ion-icon>
+            </button>
+          </li>
+
+        </ul>
+
+      </nav>
+
+
+
+
+
+      <!--
+        - #ABOUT
+      -->
+
+      <article class="about  active" data-page="about">
+
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+
+        <section class="about-text">
+          <p>
+            I'm Pritom Debnath, an AI Engineer and Researcher based in Dhaka, Bangladesh. I have a passion for 
+            developing innovative AI solutions that can help businesses to automate their existing processes 
+            and improve their overall efficiency.
+          </p>
+
+          <p>
+            My academic journey and research experience have shaped my aspiration to pursue a PhD, where 
+            I aim to explore the intersection of human-centered computing and artificial intelligence. I am 
+            particularly motivated to develop intelligent, adaptive, and explainable AI systems that 
+            enhance human-machine collaboration and contribute meaningfully to advancing research in 
+            this domain.
+          </p>
+        </section>
+
+
+        <!--
+          - service
+        -->
+
+        <section class="service">      
+          <div class="title-wrapper">
+            <h3 class="h3">Research Interest</h3>
+          </div>
+
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Reinforcement Learning <br>
+                  Large Language Models (LLMs) <br>
+                  Computer Vision</h5>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-content-box">
+                <h5 class="h5 service-item-title">Human Computer Interactions (HCI) <br>
+                Natural Language Processing (NLP) <br>
+                Agentic AI</h5>
+              </div>
+
+            </li>
+          </ul>
+
+        </section>
+
+        <!-- Test Scores -->
+          <section class="test-section">
+          <div class="title-wrapper test-header">
+            <h3 class="h3">Tests</h3>
+          </div>
+
+          <!-- grid-based test entry -->
+          <div class="test-entry">
+            <h4 class="h4 test-name">IELTS <span class="test-org">— British Council(27 May, 2025)</span></h4> 
+
+            <div class="test-label">Overall Band Score: <strong>7</strong></div>
+            <div class="test-value"><strong></strong></div>
+
+            <div class="test-label">Listening: 8, Reading: 7, Writing: 6.5, Speaking: 6</div>
+            <br>
+          </div>
+        </section>
+        <!--
+          - #education
+        -->
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Education</h3>
+          </div>
+
+          <ul class="education-list">
+
+            <li class="education-item">
+              <div class="education-content-box">
+                <div class="education-header">
+                  <h5 class="h5 education-item-title">American International University-Bangladesh (AIUB)</h5>
+                  <div class="education-meta">
+                    <span class="education-item-location">Dhaka, BD</span>
+                    <span class="education-item-date">2020 - 2024</span>
+                  </div>
+                </div>
+
+                <ul class="education-sublist">
+                  <li>Bachelor of Science in <em>Computer Science and Engineering</em></li>
+                  <li><strong>CGPA: </strong><strong>3.93 / 4.00</strong></li>
+                  <li><strong>Thesis: </strong><em>Self-Adaptive User Interface for Elderly Users: A Bayesian Network Approach.</em></li>
+                  <li><strong>Major Courses: </strong>Computer Vision and Pattern Recognition, Artificial Intelligence, Human-Computer Interaction (HCI), Data Structures and Algorithms</li>
+                </ul>
+              </div>
+            </li>
+
+        </section>
+      </article>
+
+      <!--
+        - #RESUME
+      -->
+
+      <article class="resume" data-page="resume">
+
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+
+        <section class="timeline">
+
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+
+            <h3 class="h3">Work Experience</h3>
+          </div>
+
+          <ol class="timeline-list">
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Junior AI engineer,<em> Mediasoft Data Systems Limited</em></h4>
+
+              <span>2025 — Present</span>
+
+              <p class="timeline-text">
+                • Improved RAG systems response time by 30% by structured prompting and few-shot learning.
+              </p>
+              <p class="timeline-text">
+                • Collaborated with cross-functional teams to deliver scalable and impactful AI solutions.
+              </p>  
+              <p class="timeline-text">
+                • Developed and optimized Hugging Face models to integrate with existing pipeline.
+              </p>
+
+            </li>
+
+            <li class="timeline-item">
+
+              <h4 class="h4 timeline-item-title">Internship - AI engineer,<em> Mediasoft Data Systems Limited</em></h4>
+
+              <span>2024 — 2025</span>
+
+              <p class="timeline-text">
+                • Learned RAG pipeline including data preparation, model building and deployment.
+              </p>
+              <p class="timeline-text">
+                • Applied Generative Artificial Intelligence and research to improve product performance and
+                scalability by 20%.
+              </p>  
+            </li>
+          </ol>
+        </section>
+      </article>
+
+      <!--
+        - #PORTFOLIO
+      -->
+
+      <article class="portfolio" data-page="portfolio">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+          <ul class="filter-list">
+
+            <li class="filter-item">
+              <button class="active" data-filter-btn>All</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Machine Learning</button>
+            </li>
+
+            <li class="filter-item">
+              <button data-filter-btn>Web development</button>
+            </li>
+
+          </ul>
+
+          <div class="filter-select-box">
+
+            <button class="filter-select" data-select>
+
+              <div class="select-value" data-selecct-value>Select category</div>
+
+              <div class="select-icon">
+                <ion-icon name="chevron-down"></ion-icon>
+              </div>
+
+            </button>
+
+            <ul class="select-list">
+
+              <li class="select-item">
+                <button data-select-item>All</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Machine Learning</button>
+              </li>
+
+              <li class="select-item">
+                <button data-select-item>Web development</button>
+              </li>
+
+            </ul>
+
+          </div>
+
+          <ul class="project-list">
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/PritoM-Debnath/Web_Tech_Project">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-1.png" alt="Health Care Facilities" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Health Care Facilities</h3>
+                <p class="project-category">Web development</p>
+
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="web development">
+              <a href="https://github.com/PritoM-Debnath/SelfAdaptiveUI">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-2.png" alt="self adaptive systems" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Self Adaptive Systems</h3>
+                <p class="project-category">Web development</p>
+              </a>
+            </li>
+
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/PritoM-Debnath/UNET">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-3.png" alt="unet" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">Medical Image Segmentation-UNET</h3>
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+          
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/PritoM-Debnath/mediasoft-chatbot">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-4.png" alt="rag chatbot" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">RAG Chatbot</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+  
+            <li class="project-item  active" data-filter-item data-category="machine learning">
+              <a href="https://github.com/PritoM-Debnath/linkedin-post-generator">
+
+                <figure class="project-img">
+                  <div class="project-item-icon-box">
+                    <ion-icon name="eye-outline"></ion-icon>
+                  </div>
+
+                  <img src="./assets/images/project-5.png" alt="summary" loading="lazy">
+                </figure>
+
+                <h3 class="project-title">LinkedIn Post Generator</h3>
+
+                <p class="project-category">Machine Learning</p>
+
+              </a>
+            </li>
+          </ul>
+
+        </section>
+
+      </article>
+
+
+
+
+
+      <!--
+        - #BLOG == publications
+      -->
+
+      <article class="publications" data-page="publications">
+
+        <header>
+          <h2 class="h2 article-title">Research</h2>
+        </header>
+
+        <section class="research-list">
+          <div class="title-wrapper">
+            <h3 class="h3">Publications</h3>
+          </div>
+
+          <ol class="publications">
+            <li>
+              <a href="https://dl.acm.org/doi/10.1145/3723178.3723245" target="_blank" rel="noopener">1. Imtiaz-Ud-Din, K. M., Ali, S. S., Ahmed, Z., Debnath, P., & Tisha, M. F. (2024). SelfAdaptive User Interface for Elderly Users: A Bayesian Network Approach. In Proceedings of
+                the 3rd International Conference on Computing Advancements (pp. 506-512).</a>
+            </li>
+            <br>
+            <li>
+              <a href="https://example.com/article2" target="_blank" rel="noopener">2. Kabiruzzaman, M., Shidujaman, M., Shifat, S. H., Debnath, P., & Hossain, S. (2024). Time
+                series analysis of care records data for nurse activity recognition in the wild. In Human Activity
+                and Behavior Analysis (pp. 405-415). CRC Press.</a>
+            </li>
+          </ol>
+
+          <!-- Research Experience -->
+          <div class="title-wrapper" style="margin-top:24px;">
+            <h3 class="h3">Research Experience</h3>
+          </div>
+
+          <div class="research-experience">
+            <ol class="research-listing">
+              <li class="research-item">
+                <h5 class="h5">Human Activity Recognition in Healthcare Systems</h5>
+                <p><strong>Supervisor:</strong> DR. MD. KABIRUZZAMAN &nbsp; <strong>Role:</strong> Researcher &nbsp; <strong>Duration:</strong> June 2022 - Nov 2023</p>
+
+                <p><em>Description:</em> Conducted research on human activity recognition within nurse care systems, focusing on time-series classification of care records data. The study addressed critical challenges such as class imbalance, user variability, and signal noise in real-world healthcare environments. Supervised learning models—including Decision Trees, Random Forests, and SVMs—were evaluated across 28 activity classes derived from 38,000+ annotated care-record samples collected over four months.</p>
+
+                <p><strong>Achievements:</strong></p>
+                <ul>
+                  <li>• Published as “Time Series Analysis of Care Records Data for Nurse Activity Recognition in the Wild” (CRC Press, Taylor & Francis).</li>
+                  <li>• Demonstrated that Random Forests provided the most robust cross-user performance, while Decision Trees achieved the highest accuracy (~66%) under controlled distributions.</li>
+                  <li>• Highlighted the impact of data imbalance and annotation noise on classifier stability, contributing to methodological improvements in healthcare activity recognition.</li>
+                </ul>
+
+                <p><strong>Skills:</strong> Data preprocessing, feature extraction, time-series analysis, machine learning model development (Decision Trees, Random Forests, SVM), and empirical evaluation.</p>
+              </li>
+
+              <li class="research-item" style="margin-top:12px;">
+                <h5 class="h5">Self-Adaptive User Interfaces for Elderly Users</h5>
+                <p><strong>Supervisor:</strong> K. M. IMTIAZ-UD-DIN &nbsp; <strong>Role:</strong> Undergraduate Researcher (AIUB) &nbsp; <strong>Duration:</strong> Jan 2023 - July 2024</p>
+                 <p><em>Description:</em> Investigated dynamic UI adaptation strategies for elderly users using Bayesian probabilistic modeling. Designed and implemented a self-adaptive interface capable of real-time adjustments of text and icon sizes based on user interaction features such as error count, zoom frequency, and gaze direction. The model operated in a two-phase cycle—baseline collection (“cold start”) and adaptive response (“adaptation state”) to continuously refine user accessibility.</p>
+
+                <p><strong>Achievements:</strong></p>
+                <ul>
+                  <li>• Developed a pluggable Bayesian model that enhanced usability and accessibility for older adults with visual impairments.</li>
+                  <li>• Demonstrated adaptive scaling behavior, with a 25% increase in element size triggered after repeated user interactions.</li>
+                  <li>• Published in Proceedings of the 3rd International Conference on Computing Advancements (ICCA `24).</li>
+                </ul>
+
+                <p><strong>Skills:</strong> Bayesian modeling, human-computer interaction (HCI), user experience design, adaptive interface systems, and accessibility research.</p>
+              </li>
+            </ol>
+          </div>
+        </section>
+      </article>
+
+
+
+
+
+      <!--
+        - #awards
+      -->
+
+      <article class="awards" data-page="awards">
+
+        <header>
+          <h2 class="h2 article-title">Awards</h2>
+        </header>
+
+        <section class="awards-section">
+          <ul class="awards-list">
+            <li class="award-item">
+              <div class="award-left">
+                <span class="award-name">Magna Cum Laude</span>
+                <span class="award-desc">— Silver Medal for distinguished academic excellence by AIUB</span>
+              </div>
+              <div class="award-year">2024</div>
+            </li>
+
+            <li class="award-item">
+              <div class="award-left">
+                <span class="award-name">Dean's Award</span>
+                <span class="award-desc">— Awarded five times for outstanding performance by AIUB</span>
+              </div>
+              <div class="award-year">2020 - 2023</div>
+            </li>
+
+            <li class="award-item">
+              <div class="award-left">
+                <span class="award-name">Academic Scholarship (60%)</span>
+                <span class="award-desc">— For consistent academic excellence by AIUB</span>
+              </div>
+              <div class="award-year">2020 - 2024</div>
+            </li>
+
+            <li class="award-item">
+              <div class="award-left">
+                <span class="award-name">Government Merit Scholarship (SSC)</span>
+                <span class="award-desc">— by Dhaka Education Board</span>
+              </div>
+              <div class="award-year">2017 - 2019</div>
+            </li>
+
+            <li class="award-item">
+              <div class="award-left">
+                <span class="award-name">Government Merit Scholarship (JSC)</span>
+                <span class="award-desc">— by Dhaka Education Board</span>
+              </div>
+              <div class="award-year">2015 - 2017</div>
+            </li>
+          </ul>
+        </section>
+
+      </article>
+
+    </div>
+
+  </main>
+
+
+
+
+
+
+  <!--
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!--
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
